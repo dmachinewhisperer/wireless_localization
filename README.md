@@ -19,6 +19,8 @@ Implements a localizatioin system with two commandline applications for using it
 ## Usage
 
 ## Contributing
+- Ngari Crisphine: crisphine96@gmail.com
+- Asogwa Emmanuel: asogwaemmanuel36@gmail.com 
 
 ## License
 
