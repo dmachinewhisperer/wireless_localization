@@ -4,13 +4,14 @@ import pandas
 import time
 import os
 
-# initialize the networks dataframe that will contain all access points nearby
-networks = pandas.DataFrame(columns=["BSSID", "SSID", "dBm_Signal", "Channel", "Crypto"])
-# set the index BSSID (MAC address of the AP)
-networks.set_index("BSSID", inplace=True)
+detected_aps = None; 
+
+    
 
 def callback(packet):
-    if packet.haslayer(Dot11Beacon):
+    global detected_aps
+
+    if packet.haslayer(Dot11Beacon) and packet[Dot11Elt].info.decode() == "GITAM":
         # extract the MAC address of the network
         bssid = packet[Dot11].addr2
         # get the name of it
@@ -25,13 +26,13 @@ def callback(packet):
         channel = stats.get("channel")
         # get the crypto
         crypto = stats.get("crypto")
-        networks.loc[bssid] = (ssid, dbm_signal, channel, crypto)
+        detected_aps.loc[bssid] = (ssid, dbm_signal, channel, crypto)
 
 
 def print_all():
     while True:
         os.system("clear")
-        print(networks)
+        print(detected_aps)
         time.sleep(0.5)
 
 def change_channel():
@@ -42,20 +43,28 @@ def change_channel():
         ch = ch % 14 + 1
         time.sleep(0.5)
 
-if __name__ == "__main__":
-    # interface name, check using iwconfig
-    
+
+
+def detect_aps():
+
+    global detected_aps
+
+    #dataframe to store packets
+    detected_aps = pandas.DataFrame(columns=["bssid", "ssid", "dBm_signal", "channel", "crypto"])
+    detected_aps.set_index("bssid", inplace=True)
+
     interface = "wlp1s0mon"
-    # start the channel changer
+    
+    #start the channel changer
     channel_changer = Thread(target=change_channel)
     channel_changer.daemon = True
     channel_changer.start()
 
-    # start the thread that prints all the networks
+    #start the thread that prints all the networks
     printer = Thread(target=print_all)
     printer.daemon = True
     printer.start()
+    
     # start sniffing
-    sniff(prn=callback, iface=interface)
-
+    sniff(prn=callback, iface=interface, timeout = 10)
 

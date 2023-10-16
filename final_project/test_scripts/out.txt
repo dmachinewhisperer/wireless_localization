@@ -1,0 +1,1 @@
+6c:8d:77:5d:98:a3   GITAM   11   {'WPA/PSK', 'WPA2/PSK'}

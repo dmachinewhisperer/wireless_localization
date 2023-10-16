@@ -25,28 +25,38 @@ def callback(packet):
         channel = stats.get("channel")
         # get the crypto
         crypto = stats.get("crypto")
-        networks.loc[bssid] = (ssid, dbm_signal, channel, crypto)
+
+        #print("Hello world")
+
+         #Redirect the standard output to the file
+        with open('out.txt', 'w') as file:
+    
+            sys.stdout = file
+            print(bssid," ", ssid, " ", channel, " ", crypto)
+            sys.stdout = sys.__stdout__
+
+        #networks.loc[bssid] = (ssid, dbm_signal, channel, crypto)
 
 def sniff_on_channel(interface, channel):
     os.system(f"iwconfig {interface} channel {channel}")
-    sniff(prn=callback, iface=interface, count=0)
+    sniff(prn=callback, iface=interface, timeout = 10)
+
 
 if __name__ == "__main__":
-    # interface name, check using iwconfig
     interface = "wlp1s0mon"
-    
     threads = []
 
-    for channel in range(1, 15):
+    #2.4GHz band have a total of 11 channels
+    for channel in range(1, 12):
+        #print(channel)
         thread = Thread(target=sniff_on_channel, args=(interface, channel))
         thread.daemon = True
         thread.start()
         threads.append(thread)
 
     try:
-        while True:
-            os.system("clear")
-            print(networks)
-            time.sleep(0.5)
+        # Wait for all threads to complete
+        for thread in threads:
+            thread.join()
     except KeyboardInterrupt:
         print("Exiting...")

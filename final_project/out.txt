@@ -1,0 +1,60 @@
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
+Empty DataFrame
+Columns: [ssid, dBm_signal, channel, crypto]
+Index: []
