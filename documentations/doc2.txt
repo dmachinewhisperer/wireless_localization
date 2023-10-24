@@ -1,0 +1,9 @@
+Using the tool
+
+1. app_main.py -> caputures the fingeprint of the current location. THis is the only way a fingerprint
+                    can be addded. 
+
+2. read_db.py -> reads and formats the contents of the table that stores the fingerprints
+
+3. clean_db.py -> resets the database that stores the fingperprints. 
+                    should be used with caution. 

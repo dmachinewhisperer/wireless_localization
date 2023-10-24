@@ -1,0 +1,45 @@
+Notes:
+a. Steps for using pcap to caputure on a Linux machine
+b. This approach was abandoned on 18 Oct 2023 for windows network shell
+c. Takes a lot of time to acqurie enough RSSI to form a fingerprint
+
+
+Step 1: Install and configure wireshark
+    sudo add-apt-repository ppa:wireshark-dev/stable
+    sudo apt update
+    sudo apt install wireshark
+
+    To run:
+    wireshark
+
+Step 2: Reconfigure wireshark
+    sudo dpkg-reconfigure wireshark-common
+    sudo chmod +x /usr/bin/dumpcap
+
+Step 3: Reconfigure wireshark drivers to capture wifi frames
+    put NIC in monitor mode
+    ifconfig wlp1so down
+    iwconfig wlp1so mode managed
+    ifconfig wlp1so up
+    sudo apt update
+    sudo apt install aircrack-ng
+    sudo airmon-ng start wlp1s0
+    iwconfig 
+
+Step 4: install pyshark library for python
+    sudo apt update
+    (skip if pip is installed) sudo apt install python3-pip
+    pip install pyshark
+
+step 5:
+    Execute scripts with
+    sudo -E python3 file_name
+    Run commands in root directory:
+    Start xampp :
+    sudo /opt/lampp/./manager-linux-x64.run
+    log into mysql from cmd:
+    /opt/lampp/bin/mysql -u root -p
+    Packages and dependencies
+    mysql connector
+    install mysql connector:
+    pip install mysql-connector-python

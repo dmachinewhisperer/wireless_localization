@@ -1,30 +1,27 @@
-import sqlite3
-import warnings
-import sys
+import process_aps
+import find_apsV3
+import make_map
 
-from process_aps import update_fv, construct_fingerprint, detected_aps
-from find_aps import detect_aps
+import warnings
+import sqlite3
+import sys
 
 # Suppress all warnings
 warnings.filterwarnings("ignore")
 
 
-
-
 if __name__ == "__main__":
 
-    #Redirect the standard output to the file
-    with open('out.txt', 'w') as file:
+
+    db = "devdb.db"
+    connection = sqlite3.connect(db)
+
+    #find_apsV3.detect_aps()
+    #print(detected_aps)
+
+    make_map.get_radio_map()
    
-        sys.stdout = file
+    process_aps.update_fv(connection)
+    process_aps.construct_fingerprint(connection)
 
-        db = "devdb.db"
-        # connection = sqlite3.connect(db)
-        detect_aps()
-        #print(detected_aps)
-        #for _ in range(1,100):
-        #    print("Done")
-        #update_fv(connection)
-        #construct_fingerprint(connection)
-
-        #connection.close() """
+    connection.close()

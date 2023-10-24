@@ -1,0 +1,473 @@
+ 
+Interface name : Wi-Fi 
+There are 15 networks currently visible. 
+
+SSID 1 : PC 36
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : ba:93:4a:34:21:37
+         Signal             : 43%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 11 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 2 : eduroam
+    Network type            : Infrastructure
+    Authentication          : WPA2-Enterprise
+    Encryption              : CCMP 
+    BSSID 1                 : 48:8b:0a:d5:30:6b
+         Signal             : 10%  
+         Radio type         : 802.11ac
+         Band               : 5 GHz
+         Channel            : 48 
+         Bss Load:
+             Connected Stations:         3
+             Channel Utilization:        14 (5 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 6 12 24
+         Other rates (Mbps) : 9 18 36 48 54
+    BSSID 2                 : 10:f9:20:ca:0a:62
+         Signal             : 8%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 1 
+         Bss Load:
+             Connected Stations:         10
+             Channel Utilization:        220 (86 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+    BSSID 3                 : 48:8b:0a:d5:38:eb
+         Signal             : 45%  
+         Radio type         : 802.11ac
+         Band               : 5 GHz
+         Channel            : 44 
+         Bss Load:
+             Connected Stations:         5
+             Channel Utilization:        12 (4 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 6 12 24
+         Other rates (Mbps) : 9 18 36 48 54
+    BSSID 4                 : 48:8b:0a:d5:38:e4
+         Signal             : 35%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 1 
+         Bss Load:
+             Connected Stations:         1
+             Channel Utilization:        180 (70 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+    BSSID 5                 : 48:8b:0a:d5:30:64
+         Signal             : 26%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 6 
+         Bss Load:
+             Connected Stations:         1
+             Channel Utilization:        135 (52 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+    BSSID 6                 : 48:8b:0a:5d:f6:49
+         Signal             : 15%  
+         Radio type         : 802.11ac
+         Band               : 5 GHz
+         Channel            : 140 
+         Bss Load:
+             Connected Stations:         29
+             Channel Utilization:        195 (76 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 6 12 24
+         Other rates (Mbps) : 9 18 36 48 54
+    BSSID 7                 : f0:1d:2d:f5:ea:26
+         Signal             : 11%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 6 
+         Bss Load:
+             Connected Stations:         11
+             Channel Utilization:        166 (65 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+    BSSID 8                 : 48:8b:0a:5d:f6:46
+         Signal             : 15%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 6 
+         Bss Load:
+             Connected Stations:         9
+             Channel Utilization:        216 (84 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 3 : GITAM
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : 48:8b:0a:d5:30:65
+         Signal             : 25%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 6 
+         Bss Load:
+             Connected Stations:         0
+             Channel Utilization:        193 (75 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+    BSSID 2                 : 48:8b:0a:d5:38:e5
+         Signal             : 38%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 1 
+         Bss Load:
+             Connected Stations:         1
+             Channel Utilization:        180 (70 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+    BSSID 3                 : 48:8b:0a:d5:30:6a
+         Signal             : 8%  
+         Radio type         : 802.11ac
+         Band               : 5 GHz
+         Channel            : 48 
+         Bss Load:
+             Connected Stations:         3
+             Channel Utilization:        14 (5 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 6 12 24
+         Other rates (Mbps) : 9 18 36 48 54
+    BSSID 4                 : 48:8b:0a:5d:f6:47
+         Signal             : 15%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 6 
+         Bss Load:
+             Connected Stations:         9
+             Channel Utilization:        216 (84 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+    BSSID 5                 : 48:8b:0a:d5:38:ea
+         Signal             : 45%  
+         Radio type         : 802.11ac
+         Band               : 5 GHz
+         Channel            : 44 
+         Bss Load:
+             Connected Stations:         5
+             Channel Utilization:        10 (3 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 6 12 24
+         Other rates (Mbps) : 9 18 36 48 54
+    BSSID 6                 : 48:8b:0a:5d:f6:48
+         Signal             : 11%  
+         Radio type         : 802.11ac
+         Band               : 5 GHz
+         Channel            : 140 
+         Bss Load:
+             Connected Stations:         28
+             Channel Utilization:        195 (76 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 6 12 24
+         Other rates (Mbps) : 9 18 36 48 54
+
+SSID 4 : GITAM-5GHz
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : c4:b3:6a:19:63:63
+         Signal             : 15%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 1 
+         Bss Load:
+             Connected Stations:         10
+             Channel Utilization:        151 (59 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+    BSSID 2                 : 48:8b:0a:d5:38:ec
+         Signal             : 45%  
+         Radio type         : 802.11ac
+         Band               : 5 GHz
+         Channel            : 44 
+         Bss Load:
+             Connected Stations:         5
+             Channel Utilization:        12 (4 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 6 12 24
+         Other rates (Mbps) : 9 18 36 48 54
+    BSSID 3                 : 48:8b:0a:d5:38:e3
+         Signal             : 38%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 1 
+         Bss Load:
+             Connected Stations:         1
+             Channel Utilization:        180 (70 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+    BSSID 4                 : f0:1d:2d:f5:e3:c4
+         Signal             : 25%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 1 
+         Bss Load:
+             Connected Stations:         4
+             Channel Utilization:        202 (79 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+    BSSID 5                 : 48:8b:0a:d5:30:63
+         Signal             : 25%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 6 
+         Bss Load:
+             Connected Stations:         0
+             Channel Utilization:        193 (75 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+    BSSID 6                 : 48:8b:0a:5d:f6:47
+         Signal             : 13%  
+         Radio type         : 802.11ac
+         Band               : 5 GHz
+         Channel            : 140 
+         Bss Load:
+             Connected Stations:         9
+             Channel Utilization:        216 (84 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 6 12 24
+         Other rates (Mbps) : 9 18 36 48 54
+
+SSID 5 : PC43
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : ba:93:4a:34:56:51
+         Signal             : 35%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 11 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 6 : dd?
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : ba:93:4a:34:21:15
+         Signal             : 25%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 11 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 7 : LEO
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : ba:93:4a:34:0a:6b
+         Signal             : 45%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 11 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 8 : net ledu aa
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : ba:93:4a:34:21:41
+         Signal             : 23%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 11 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 9 : GitamGuest
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : 48:8b:0a:d5:15:c0
+         Signal             : 58%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 11 
+         Bss Load:
+             Connected Stations:         4
+             Channel Utilization:        149 (58 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+    BSSID 2                 : 48:8b:0a:d5:15:cf
+         Signal             : 66%  
+         Radio type         : 802.11ac
+         Band               : 5 GHz
+         Channel            : 161 
+         Bss Load:
+             Connected Stations:         24
+             Channel Utilization:        74 (29 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 6 12 24
+         Other rates (Mbps) : 9 18 36 48 54
+
+SSID 10 : stafftest
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : 48:8b:0a:d5:15:c4
+         Signal             : 56%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 11 
+         Bss Load:
+             Connected Stations:         4
+             Channel Utilization:        149 (58 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+    BSSID 2                 : 48:8b:0a:d5:15:cb
+         Signal             : 65%  
+         Radio type         : 802.11ac
+         Band               : 5 GHz
+         Channel            : 161 
+         Bss Load:
+             Connected Stations:         24
+             Channel Utilization:        74 (29 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 6 12 24
+         Other rates (Mbps) : 9 18 36 48 54
+
+SSID 11 : staff
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : 48:8b:0a:d5:15:c1
+         Signal             : 65%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 11 
+         Bss Load:
+             Connected Stations:         4
+             Channel Utilization:        149 (58 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+    BSSID 2                 : 48:8b:0a:d5:15:ce
+         Signal             : 66%  
+         Radio type         : 802.11ac
+         Band               : 5 GHz
+         Channel            : 161 
+         Bss Load:
+             Connected Stations:         24
+             Channel Utilization:        74 (29 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 6 12 24
+         Other rates (Mbps) : 9 18 36 48 54
+
+SSID 12 : CONVOCATION
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : 48:8b:0a:d5:15:ca
+         Signal             : 65%  
+         Radio type         : 802.11ac
+         Band               : 5 GHz
+         Channel            : 161 
+         Bss Load:
+             Connected Stations:         24
+             Channel Utilization:        74 (29 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 6 12 24
+         Other rates (Mbps) : 9 18 36 48 54
+    BSSID 2                 : 48:8b:0a:d5:15:c5
+         Signal             : 56%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 11 
+         Bss Load:
+             Connected Stations:         4
+             Channel Utilization:        149 (58 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 13 : studenttest
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : 48:8b:0a:d5:15:cc
+         Signal             : 65%  
+         Radio type         : 802.11ac
+         Band               : 5 GHz
+         Channel            : 161 
+         Bss Load:
+             Connected Stations:         24
+             Channel Utilization:        74 (29 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 6 12 24
+         Other rates (Mbps) : 9 18 36 48 54
+    BSSID 2                 : 48:8b:0a:d5:15:c3
+         Signal             : 56%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 11 
+         Bss Load:
+             Connected Stations:         4
+             Channel Utilization:        149 (58 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 14 : students
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : 48:8b:0a:d5:15:cd
+         Signal             : 99%  
+         Radio type         : 802.11ac
+         Band               : 5 GHz
+         Channel            : 161 
+         Bss Load:
+             Connected Stations:         26
+             Channel Utilization:        52 (20 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 6 12 24
+         Other rates (Mbps) : 9 18 36 48 54
+    BSSID 2                 : 48:8b:0a:d5:15:c2
+         Signal             : 53%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 11 
+         Bss Load:
+             Connected Stations:         4
+             Channel Utilization:        149 (58 %)
+             Medium Available Capacity:  23437 (749984 us/s)
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 15 : BLR-L1-AB2-F03- 7067
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : 52:84:92:60:72:c3
+         Signal             : 26%  
+         Radio type         : 802.11ax
+         Band               : 2.4 GHz
+         Channel            : 6 
+         Basic rates (Mbps) : 1 2 5.5 6 11 12 24
+         Other rates (Mbps) : 9 18 36 48 54
+

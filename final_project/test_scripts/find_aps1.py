@@ -14,17 +14,21 @@ def callback(packet):
     if packet.haslayer(Dot11Beacon) and packet[Dot11Elt].info.decode() == "GITAM":
         # extract the MAC address of the network
         bssid = packet[Dot11].addr2
-        # get the name of it
+        
+        #get the name of it
         ssid = packet[Dot11Elt].info.decode()
         try:
             dbm_signal = packet.dBm_AntSignal
         except:
             dbm_signal = "N/A"
-        # extract network stats
+        
+        #extract network stats
         stats = packet[Dot11Beacon].network_stats()
-        # get the channel of the AP
+        
+        #get the channel of the AP
         channel = stats.get("channel")
-        # get the crypto
+        
+        #get the crypto
         crypto = stats.get("crypto")
         detected_aps.loc[bssid] = (ssid, dbm_signal, channel, crypto)
 
