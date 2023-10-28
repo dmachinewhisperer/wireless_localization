@@ -8,7 +8,8 @@ Implements a localizatioin system with two commandline applications for using it
 - app1: for calibration of the system
 - app2: for localization 
 
-##Target Environment
+## Target Environment
+
 The calibration is done for Shibaji Bhavan 3rd Floor, GST
 To use the application in a different setting, the calibration application must be used to collect the fingeprints of the enviroment.
 ## Features
